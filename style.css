@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Sépare les éléments à gauche et à droite */
+    align-items: center; /* Centre verticalement les éléments */
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+.header-left img {
+    width: 200px;
+   
+   
+}
+.header-right {
+     text-align: left;
+    font-weight: bold;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #45a049;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px; /* Largeur fixe pour les labels */
+    font-weight: bold;
+}
+.form-group input, 
+.form-group textarea {
+    flex: 1; /* Prend tout l'espace disponible */
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    display: inline-block; /* Assure que les labels n'occupent que l'espace nécessaire */
+    margin-right: 150px; /* Espace entre le label et l'input */
+    white-space: nowrap; /* Empêche le label de passer à la ligne */
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
+    flex: 2; /* L'input prend 2 parts de la largeur */
+    border: none; /* Enlève la bordure par défaut */
+    border-bottom: 1px dotted black; /* Applique une ligne pointillée en bas */
+    padding: 5px; /* Ajoute du padding pour l'espace à l'intérieur */
+}
